@@ -17,6 +17,8 @@
     "deploy": "npm run build && gh-pages -d build"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-zero": "^0.2.0",
     "gh-pages": "^1.1.0"
   }
 }
