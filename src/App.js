@@ -5,7 +5,7 @@ import { TicTacToeBoard } from './board';
 const App = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
-  multiplayer: true,
+  multiplayer: { server: 'localhost:8000' },
 });
 
 export default App;
