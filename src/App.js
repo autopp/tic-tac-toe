@@ -5,6 +5,7 @@ import { TicTacToeBoard } from './board';
 const App = Client({
   game: TicTacToe,
   board: TicTacToeBoard,
+  multiplayer: true,
 });
 
 export default App;
